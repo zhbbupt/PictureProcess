@@ -1,0 +1,12 @@
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\PictureProcess.dll
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\PictureProcess.pdb
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\PictureProcess.dll.manifest
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\PictureProcess.vsto
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+E:\源代码\VSTO\PictureProcess\PictureProcess\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.csprojResolveAssemblyReference.cache
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.PictureRibbon.resources
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.Properties.Resources.resources
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.csproj.GenerateResource.Cache
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.dll
+E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.pdb
