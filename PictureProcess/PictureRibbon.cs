@@ -34,14 +34,17 @@ namespace PictureProcess
          
         private void PictureRibbon_Load(object sender, RibbonUIEventArgs e)
         {
-            //work_Dir = @"C:\word图片处理工作目录";
-        }
-        private void DirInitUseDefaultWorkDir()
-        {
             work_Dir = @"C:\word图片处理工作目录";
             doc = Globals.ThisAddIn.Application;
             doc_Name = doc.ActiveDocument.Name;
             file_Dir = work_Dir + "\\" + doc_Name;
+        }
+        private void DirInitUseDefaultWorkDir()
+        {
+            //work_Dir = @"C:\word图片处理工作目录";
+            //doc = Globals.ThisAddIn.Application;
+            //doc_Name = doc.ActiveDocument.Name;
+            //file_Dir = work_Dir + "\\" + doc_Name;
             if (!Directory.Exists(file_Dir) == true)
             {
                 Directory.CreateDirectory(file_Dir);
@@ -49,8 +52,8 @@ namespace PictureProcess
         }
         private void DirInitUseSelectedWorkDir()
         {
-            doc = Globals.ThisAddIn.Application;
-            doc_Name = doc.ActiveDocument.Name;
+            //doc = Globals.ThisAddIn.Application;
+            //doc_Name = doc.ActiveDocument.Name;
             file_Dir = work_Dir +"\\"+ doc_Name;
             if (!Directory.Exists(file_Dir) == true)
             {
@@ -86,11 +89,11 @@ namespace PictureProcess
             Microsoft.Office.Tools.Ribbon.RibbonCheckBox SaveAsGIF = (Microsoft.Office.Tools.Ribbon.RibbonCheckBox)sender;
             if (SaveAsGIF.Checked)
             {
-                imag_save_as_jpg = true;
+                imag_save_as_gif = true;
             }
             else
             {
-                imag_save_as_jpg = false;
+                imag_save_as_gif = false;
             }
         }
 

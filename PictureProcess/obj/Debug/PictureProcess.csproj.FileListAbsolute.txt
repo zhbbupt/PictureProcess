@@ -10,3 +10,15 @@ E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.Propert
 E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.csproj.GenerateResource.Cache
 E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.dll
 E:\源代码\VSTO\PictureProcess\PictureProcess\obj\Debug\PictureProcess.pdb
+E:\git\PictureProcess\PictureProcess\bin\Debug\PictureProcess.dll
+E:\git\PictureProcess\PictureProcess\bin\Debug\PictureProcess.pdb
+E:\git\PictureProcess\PictureProcess\bin\Debug\PictureProcess.dll.manifest
+E:\git\PictureProcess\PictureProcess\bin\Debug\PictureProcess.vsto
+E:\git\PictureProcess\PictureProcess\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+E:\git\PictureProcess\PictureProcess\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.csprojResolveAssemblyReference.cache
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.PictureRibbon.resources
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.Properties.Resources.resources
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.csproj.GenerateResource.Cache
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.dll
+E:\git\PictureProcess\PictureProcess\obj\Debug\PictureProcess.pdb

@@ -52,11 +52,11 @@ namespace PictureProcess
         {
             Office.CommandBarButton RightCotrlBars = (Office.CommandBarButton)Application.CommandBars.FindControl(Office.MsoControlType.msoControlButton, missing,"PictureProcess", false);
             RightCotrlBars.Enabled = false;
-            RightCotrlBars.Click -= new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
+            //RightCotrlBars.Click -= new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
             if (Selected.Range.InlineShapes.Count > 0)
             {
                 RightCotrlBars.Enabled = true;
-                RightCotrlBars.Click += new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
+                //RightCotrlBars.Click += new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
             }
         }
         private void initiate()
@@ -151,12 +151,15 @@ namespace PictureProcess
             AddRightCotrlBar.Caption = "处理选中图片";
             AddRightCotrlBar.Enabled = false;
             this.Application.WindowBeforeRightClick += new Word.ApplicationEvents4_WindowBeforeRightClickEventHandler(Application_WindowBeforeRightClick);
+            AddRightCotrlBar.Click += new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
             try
             {
+                Office.CommandBarButton RightCotrlBars = (Office.CommandBarButton)Application.CommandBars.FindControl(Office.MsoControlType.msoControlButton, missing, "PictureProcess", false);
+                RightCotrlBars.Click -= new Office._CommandBarButtonEvents_ClickEventHandler(_RightCotrlBars_Click);
                 RemoveRightRightControlBars();
                 this.Application.WindowBeforeRightClick -= new Word.ApplicationEvents4_WindowBeforeRightClickEventHandler(Application_WindowBeforeRightClick);
             }
